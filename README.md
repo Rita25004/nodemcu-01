@@ -12,4 +12,3 @@ Instruktion för att utföra blink med Arduino IDE och Pulsivo
 <img width="1415" height="586" alt="Skärmbild 2025-12-04 122947" src="https://github.com/user-attachments/assets/a2344c7c-a964-448f-88b7-fea0abe64903" />
 
 
-## Vad är NodeMCU?
