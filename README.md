@@ -12,3 +12,11 @@ Instruktion för att utföra blink med Arduino IDE och Pulsivo
 <img width="1415" height="586" alt="Skärmbild 2025-12-04 122947" src="https://github.com/user-attachments/assets/a2344c7c-a964-448f-88b7-fea0abe64903" />
 
 
+## Två basfunktioner i Arduino
+setup()
+Så skriver man kod som krävs för att få ett program att starta en gång
+Här berättar vi för NodeMCU vilken pin som används för LED.
+
+loop()
+skrivs kod som ska repeteras under programmets körning.
+Här skriver vi koden som får LED att blinka.
