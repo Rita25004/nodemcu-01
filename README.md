@@ -24,4 +24,5 @@ Här skriver vi koden som får LED att blinka.
 ## Portinitialisering?
 
 Det innebär att man ställer in en pinne som ingång eller utgång
+
 <img width="268" height="20" alt="PIn" src="https://github.com/user-attachments/assets/0481e5f8-2741-4258-83fe-fe43d7305c1f" />
