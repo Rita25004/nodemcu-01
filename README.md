@@ -2,6 +2,14 @@
 
 Syftet med detta repo är att lära nya studenter hur man använder Arduino-funktioner och kontrollerar en mikroprocessor.
 
+## Vad är NodeMCU?
+NodeMCU är ett litet kort med en ESP8266-mikrokontroller, som är som en liten “dator” som kan köra program för att styra elektronik.
+## Blink Program?
+Detta är det första programmet man brukar lära sig.
+Det gör att LED-lampan på kortet blinkar fram och tillbaka
+## Arduino IDE
+Arduino IDE är programmet där vi skriver koden och skickar den till NodeMCU
+
 ## "Blinkprogram" på NodeMCU
 Instruktion för att utföra blink med Arduino IDE och Pulsivo
 * Installera Arduino IDE på din dator
@@ -14,17 +22,21 @@ Instruktion för att utföra blink med Arduino IDE och Pulsivo
 
 ## Två basfunktioner i Arduino
 #### setup()
-Så skriver man kod som krävs för att få ett program att starta en gång.
+Denna funktion körs endast en gång när programmet startar
 
-Här berättar vi för NodeMCU vilken pin som används för LED.
+Vi använder den för att bestämma vilken pin som ska vara utgång (Output) eller ingång (Input).
 
 #### loop()
-skrivs kod som ska repeteras under programmets körning.
+Denna funktion körs kontinuerligt så länge kortet är påslaget.
 
-Här skriver vi koden som får LED att blinka.
+Här skriver vi det som ska upprepas, t.ex. slå på och stänga av LED.
 
 ## Portinitialisering?
+Det betyder att man bestämmer funktionen för varje pin på kortet:
 
-Det innebär att man ställer in en pinne som ingång eller utgång
+Output (utgång): skickar ström, t.ex. LED eller motor
+
+Input (ingång): läser ström, t.ex. knapp eller sensor
+
 
 <img width="268" height="20" alt="PIn" src="https://github.com/user-attachments/assets/0481e5f8-2741-4258-83fe-fe43d7305c1f" />
